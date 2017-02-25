@@ -2,7 +2,7 @@
 title:  "Anhad's Nappy: A Wet Nappy Sensor"
 excerpt: "Raising a baby is tough enough as it is and the bathroom habits of an infant and impossible to predict. In this project, we design a small sensor that alerts when a nappy needs changing."
 header:
-  teaser: "https://2.bp.blogspot.com/-gf8IGWYvwzI/WIb8F-4CRiI/AAAAAAAAYtY/OR2ssI4YnNsJ4T6wyPYv0uqU46vzmGTpgCEw/s320/IMG_1580.JPG"
+  image: "https://2.bp.blogspot.com/-gf8IGWYvwzI/WIb8F-4CRiI/AAAAAAAAYtY/OR2ssI4YnNsJ4T6wyPYv0uqU46vzmGTpgCEw/s320/IMG_1580.JPG"
 categories: 
   - Microcontroller
 tags:

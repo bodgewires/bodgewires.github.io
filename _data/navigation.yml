@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Inderpreet"
-    url: https://inderpreet.github.io
   - title: "About"
     url: /about/
   # - title: "Sample Posts"
