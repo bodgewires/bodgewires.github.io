@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : *name 
-  avatar           : "ipv1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/ipv1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "...freelance engineer and blogger to the internet, father to a sneaky son, husband to a brilliant wife and I will have my PhD in this life or the next."
   location         : "Somewhere"
   email            :
