@@ -1,9 +1,10 @@
 ---
-title:  "Getting Air Borne with the CC110L and MSP430"
+title: "Getting Air Borne with the CC110L and MSP430"
 excerpt: "A startup project for using the Anaren CC110L and MSP430 with Code Composer Studio"
+header:
   image: /assets/images/unsplash-image-2.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-categories:
+categories: 
   - Update
 tags:
   - MSP430
@@ -20,6 +21,8 @@ This is a simple prject where I use MSP430G2553 Microcontrollers with the Anaren
 {% include toc title="Contents" %}
 
 The basic concept is simple. We transmit with a function and stop otherwise. All-in-all the whole project is quite reusable and I intend to some stuff with it in the future.
+
+[Repository](https://github.com/inderpreet/Project-CC110L-Nodes)
 
 ## How to Import
 
