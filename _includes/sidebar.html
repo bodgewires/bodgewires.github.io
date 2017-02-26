@@ -21,3 +21,19 @@
   {% endif %}
   </div>
 {% endif %}
+
+<!-- Added a sidebar ads variable and displayed amazon ads by IP_v1 -->
+{% if page.sidebar_ads %}
+  <div class="sidebar sticky">
+    {% raw %}
+      <div>
+      <script type="text/javascript" language="javascript">
+      var aax_size='160x600';
+      var aax_pubname = 'inderpreet-21';
+      var aax_src='302';
+      </script>
+      <script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>
+      </div>
+    {% endraw %}
+  </div>
+{% endif %}
