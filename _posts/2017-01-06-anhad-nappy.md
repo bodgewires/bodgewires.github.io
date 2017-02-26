@@ -5,10 +5,11 @@ header:
   image: /assets/images/unsplash-image-2.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories: 
-  - Microcontroller
+  - Project
 tags:
   - MSP430
   - LowPower
+  - Microcontroller
 ---
 
 ## Introduction
