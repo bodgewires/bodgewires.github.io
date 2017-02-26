@@ -4,6 +4,7 @@
 
 .masthead {
   position: relative;
+  background-color: #e91e63;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -16,11 +17,11 @@
     @include clearfix;
     display: -webkit-box;
     display: flex;
+    background-color: #e91e63;
     -webkit-box-pack: justify;
      justify-content: space-between;
-    padding: 1em 1em 1em;
+    padding: 12px 12px 12px; /* 1em 1em 1em;  IP_v1*/
     font-family: $sans-serif-narrow;
-
     @include breakpoint($x-large) {
       max-width: $x-large;
     }
@@ -44,7 +45,7 @@
         align-items: center;
   font-weight: bold;
   z-index: 20;
-  color: #007fac !important;
+  color: #ffffff !important; /* Make it white IP_v1 */
 }
 
 .masthead__menu {

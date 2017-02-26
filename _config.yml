@@ -231,6 +231,12 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -244,3 +250,22 @@ defaults:
       comments: true
       share: true
       related: true
+# _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      read_time: false
+      comments: true
+      sidebar:
+        nav: "projects"

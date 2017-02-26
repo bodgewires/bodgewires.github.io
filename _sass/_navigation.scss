@@ -179,7 +179,8 @@
   display: flex;
   -webkit-box-align: center;
         align-items: center;
-  background: $background-color;
+  /* background: $background-color; I wanna make it transparent - IP_v1*/
+
 
   a {
     display: block;
@@ -187,6 +188,7 @@
     padding: 0.5rem 0;
     color: $masthead-link-color;
     text-decoration: none;
+    color: #ffffff; /* White IP_v1 */
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -202,7 +204,7 @@
     align-self: stretch;
     border: 0;
     outline: none;
-    color: #fff;
+    color: #ffffff; /* White IP_v1 */
     background-color: $primary-color;
     cursor: pointer;
   }
@@ -261,7 +263,7 @@
     padding: 5px;
     border: 1px solid $border-color;
     border-radius: $border-radius;
-    background: #fff;
+    background: #e91e63; /* colored IP_v1 */
     box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
 
     &.hidden {

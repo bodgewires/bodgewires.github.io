@@ -2,6 +2,10 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Collection Of Pages"
+    url: /collections/
+  - title: "Projects"
+    url: /projects/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

@@ -1,10 +1,15 @@
 ---
-permalink: /about/
 title: "About"
-excerpt: "This page is where I put my -about me- stuff"
-modified: 2017-02-24T16:39:37-04:00
+permalink: /about/
+date: 2016-02-24T03:02:20+00:00
 ---
 
-{% include base_path %}
+This is the place holder for the about page
 
-Content Coming Soon . ;)
+> Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi'a coladas. (And gettin' caught in the rain.)
+
+...or something like this:
+
+> The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.
+
+You should probably delete this page and create new pages for your content. Have fun!
