@@ -73,18 +73,18 @@ One more thing! We need a logout button so solder up wires to your push button a
 
 Install the dependencies using
 
-'''
+```bash
 sudo apt-get update && sudo apt-get upgrade && sudo apt-get install 
 sudo apt-get install python-smbus 
-'''
+```
 
 Next run the setup script from the SPI folder using sudo python setup.py install
 
 Finally, run the software using
 
-'''
+```bash
 sudo python coprocessor.py 
-'''
+```
 
 If everything is done right it should start the service. If you get I2C errors, check the connections for loose wires. They are the most common culprit.
 
@@ -100,7 +100,7 @@ Finally start OpenHAB and it should work.
 
 Download the STL files from https://pinshape.com/items/32437-3d-printed-psoc-while-you-were-out and 3D Print them
 
-![alt text](/assets/images/whileuwereout/1.jpg){: .align-center}
+![alt text](/assets/images/whileuwereout/1.jpeg){: .align-center}
 
 Put everything together and viola!
 

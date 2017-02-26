@@ -1,6 +1,6 @@
 ---
-title:  “The Internet Of Holiday Lights"
-excerpt: “Using Technology to connect our holiday lights to the Internet."
+title:  "The Internet Of Holiday Lights"
+excerpt: "Using Technology to connect our holiday lights to the Internet."
 header:
   image: /assets/images/unsplash-image-2.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
