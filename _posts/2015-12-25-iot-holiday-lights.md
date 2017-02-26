@@ -22,7 +22,7 @@ At the end of 2014, Infineon, MCM electronics and Element14, sponsored a IoT Hol
 
 {% include toc title="Contents" %}
 
-##INTRODUCTION
+## INTRODUCTION
 
 The holidays mean different things to different people. To kids it means gifts, to teens it means time off, to the professional its a time to be away from the stress of daily life, to the mother it means a display of culinary skill and to the elderly it means a time when lots of people visit. Whatever may be means, the end result is a fun time and sharing of happiness.
 My project for the Internet of Holiday lights was based around our living room which was not very livable. It was a mess and with the upcoming holidays I wanted to set the living room in such a way that it would be suitable for entertaining guests. Additionally I wanted to accomplish the above mentioned in such a way that the holiday lighting becomes part of the living room and I don’t need to remove it after the holidays. Hence the concept of Dynamic Living-room Lighting.
