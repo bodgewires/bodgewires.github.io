@@ -1,26 +1,58 @@
 ---
 layout: splash
-permalink: /home/
+permalink: /
 header:
-  overlay_color: "#ff0000"
-  overlay_image: bg.jpg
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/bg.jpg
   caption:
-excerpt: '...freelance engineer and blogger to the internet, father to a sneaky son, husband to a brilliant wife and I will have my PhD in this life or the next. <br> Applogies- I am experimenting here :)'
+excerpt: 'A celebration of creativity and technology and the burning desire of a maker to create something from a vision. This blog is about making, re-making and learning by doing. Do-It-Yourself and have fun while you are at it.{::nomarkdown}<br />{:/nomarkdown}'
+feature_row:
+  - image_path: /assets/images/iotholiday/hol.jpg
+    alt: "customizable"
+    title: "IoT Holiday Light Project"
+    excerpt: "Connecting the Living-Room to the Internet using an Arduino YUN and a Raspberry Pi"
+    url: "/docs/configuration/"
+    btn_label: "Learn More"
+
+  - image_path: /assets/images/nappy/nappy.jpg
+    alt: "fully responsive"
+    title: "Anhad's Nappy Project"
+    excerpt: "Get notified when the baby makes a wee-wee"
+    url: "/docs/layouts/"
+    btn_label: "Learn More"
+
+  - image_path: /assets/images/iotlight/iotlight.jpg
+    alt: "100% free"
+    title: "IoT Baby Room Light Project"
+    excerpt: "A light control solution with a webapp"
+    url: "/docs/license/"
+    btn_label: "Learn More"
+
+  - image_path: /assets/images/edisongardner/gardener.jpg
+    alt: "customizable"
+    title: "Intel Edison Based Gardener"
+    excerpt: "Automate the Garden with the Intel Edison"
+    url: "/docs/configuration/"
+    btn_label: "Learn More"
+
+  - image_path: /assets/images/whileuwereout/office.jpg
+    alt: "fully responsive"
+    title: "While You Were Out"
+    excerpt: "An Office monitoring and control solution with a PSOC and Raspberry Pi 2"
+    url: "/docs/layouts/"
+    btn_label: "Learn More"
+
+  - image_path: /assets/images/mm-free-feature.png
+    alt: "100% free"
+    title: "Nosy Electronics"
+    excerpt: "Using sensors to monitor the quality of air in the room"
+    url: "/docs/license/"
+    btn_label: "Learn More"
 intro:
-  - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @ip_v1](https://twitter.com/ip_v1){: .btn .btn--twitter}'
+  - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @BodgeWires](https://twitter.com/bodgewires){: .btn .btn--twitter}'
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
-{% include base_path %}
-{% include group-by-array collection=site.posts field="categories" %}
-
-{% for category in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endfor %}
