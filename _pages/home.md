@@ -11,42 +11,42 @@ feature_row:
     alt: "customizable"
     title: "IoT Holiday Light Project"
     excerpt: "Connecting the Living-Room to the Internet using an Arduino YUN and a Raspberry Pi"
-    url: "/docs/configuration/"
+    url: "project/iot-holiday-lights/"
     btn_label: "Learn More"
 
   - image_path: /assets/images/nappy/nappy.jpg
     alt: "fully responsive"
     title: "Anhad's Nappy Project"
     excerpt: "Get notified when the baby makes a wee-wee"
-    url: "/docs/layouts/"
+    url: "project/anhad-nappy/"
     btn_label: "Learn More"
 
   - image_path: /assets/images/iotlight/iotlight.jpg
     alt: "100% free"
     title: "IoT Baby Room Light Project"
     excerpt: "A light control solution with a webapp"
-    url: "/docs/license/"
+    url: "#"
     btn_label: "Learn More"
 
   - image_path: /assets/images/edisongardner/gardener.jpg
     alt: "customizable"
     title: "Intel Edison Based Gardener"
     excerpt: "Automate the Garden with the Intel Edison"
-    url: "/docs/configuration/"
+    url: "#"
     btn_label: "Learn More"
 
   - image_path: /assets/images/whileuwereout/office.jpg
     alt: "fully responsive"
     title: "While You Were Out"
     excerpt: "An Office monitoring and control solution with a PSOC and Raspberry Pi 2"
-    url: "/docs/layouts/"
+    url: "http://localhost:4000/project/project-while-you-were-out/"
     btn_label: "Learn More"
 
   - image_path: /assets/images/mm-free-feature.png
     alt: "100% free"
     title: "Nosy Electronics"
     excerpt: "Using sensors to monitor the quality of air in the room"
-    url: "/docs/license/"
+    url: "#"
     btn_label: "Learn More"
 intro:
   - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @BodgeWires](https://twitter.com/bodgewires){: .btn .btn--twitter}'
