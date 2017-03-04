@@ -7,9 +7,9 @@ header:
 categories:
   - Project
 tags:
-  - Linux
-  - OpenHAB
-  - Edison
+  - bbc
+  - microbit
+  - touchdevelop
 ---
 
 ## INTRODUCTION
