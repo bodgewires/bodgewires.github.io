@@ -26,24 +26,24 @@ This review is for the TBS1202B-EDU which is the top of the line model in the se
 
 ## Specifications and Key features
 
-– 200MHz BW
-– 2-channel model
-– Up to 2 GS/s sample rate on all channels
-– 2.5k point record length on all channels
+* 200MHz BW
+* 2-channel model
+* Up to 2 GS/s sample rate on all channels
+* 2.5k point record length on all channels
 
 ## KEY FEATURES
 
-– 7 inch WVGA (800X480) Active TFT Color Display
-– 34 automated measurements
-– Dual window FFT, simultaneously monitors both the time and frequency domains
-– Integrated Courseware feature
-– Dual channel frequency counter
-– Zoom Function
-– Autoset and signal auto-ranging
-– New affordable 50 MHz TPP0051 passive probes
-– Multiple-language user interface
-– Small footprint and lightweight – Only 4.9 in. (124 mm) deep and 4.4 lb. (2 kg)
-– 5Yrs warranty
+* 7 inch WVGA (800X480) Active TFT Color Display
+* 34 automated measurements
+* Dual window FFT, simultaneously monitors both the time and frequency domains
+* Integrated Courseware feature
+* Dual channel frequency counter
+* Zoom Function
+* Autoset and signal auto-ranging
+* New affordable 50 MHz TPP0051 passive probes
+* Multiple-language user interface
+* Small footprint and lightweight – Only 4.9 in. (124 mm) deep and 4.4 lb. (2 kg)
+* 5Yrs warranty
 
 ## Package Contents
 
@@ -69,13 +69,14 @@ The website quotes a price of Rs. 39,000 for the base model. I am not sure what 
 
 I have used Tek in the past and I will try not to compare with the MSO2024B which is a mixed signal scope with 4 analog channels. My first impressions when I first set it up were…
 
-– Very nice display. Its big and the resolution is 800×480 which makes the whole unit more usable No more squinting to look at the display.
-– Portable. The scope is lighter than others which is a good thing. Build quality is good with no ‘squeaky’ joints.
-– Only two channels: I would have liked to see 4 channels but I guess it is OK for this segment.
-– No Function Generator: Since this scope is marketed as an educational scope, it would have been value addition for it to have a function generator integrated into the unit. I was able to rig up one using an AD9850 and a microcontroller so I guess it would not have cost the designers an arm and a leg.
-– No clicky knob: Now this may sound a biit strange but bear with me. The knobs are rotary encoders which give a ‘clicky’ feel when turned. I miss that in the main dial and since it drives a menu interface which has the selection ‘clicking’ to an item, it made sense. The knob is smooth to turn but they could have used the same type used in the voltage gain selection knob.
--No VGA/ HDMI out: In teaching to a lab full of students, it is beneficial to have the output stream to the projector. Since the courseware software allows for the instructions to be put onto the device, the additional VGA port would have made it much more useful.
-– No bus decoding options: There is no support to upgrade this model with the decoder modules. I know they are industry requirements, but this instrument can bridge that gap.
+* Very nice display. Its big and the resolution is 800×480 which makes the whole unit more usable No more squinting to look at the display.
+* Portable. The scope is lighter than others which is a good thing. Build quality is good with no ‘squeaky’ joints.
+* Only two channels: I would have liked to see 4 channels but I guess it is OK for this segment.
+* No Function Generator: Since this scope is marketed as an educational scope, it would have been value addition for it to have a function generator integrated into the unit. I was able to rig up one using an AD9850 and a microcontroller so I guess it would not have cost the designers an arm and a leg.
+* No clicky knob: Now this may sound a biit strange but bear with me. The knobs are rotary encoders which give a ‘clicky’ feel when turned. I miss that in the main dial and since it drives a menu interface which has the selection ‘clicking’ to an item, it made sense. The knob is smooth to turn but they could have used the same type used in the voltage gain selection knob.
+* No VGA/ HDMI out: In teaching to a lab full of students, it is beneficial to have the output stream to the projector. Since the courseware software allows for the instructions to be put onto the device, the additional VGA port would have made it much more useful.
+* No bus decoding options: There is no support to upgrade this model with the decoder modules. I know they are industry requirements, but this instrument can bridge that gap.
+
 There was a sticker on the display that notifies you to update the firmware and also to register with Tek. I thought that was a nice addition.
 
 ## Project 1: Getting started with a sine wave
@@ -83,7 +84,7 @@ There was a sticker on the display that notifies you to update the firmware and 
 As mentioned before, I would have liked to see a function generator but since it was not there, I decided to make my own. Using an arduino and an AD9850 module, I put together a little test piece in a hurry. I will be sharing the entire details and linking them here. The code will be available at github.com/inderpreet
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AWv1dOTgSCY" frameborder="0" allowfullscreen></iframe>
-
+<br />
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AWv1dOTgSCY" frameborder="0" allowfullscreen></iframe>
 
 
@@ -107,9 +108,9 @@ There are a lot of people who have given various methods to achieve this but I a
 
 I tried to use the scope for teaching 1st year engineering students and here are my impressions:
 
-– As a teaching aid, a few things like VGA out would have been nice. But beyond that, I was quickly able to deliver sessions without a hitch. The menus system is clear and ergonomically designed the scope allows even a newcomer to get comfortable easily. The presence of a function generator would have reduced the number of instruments on the bench.
-– The courseware software was easy to use but the traditional paper handout approach is a bit better. I found the students struggling to move around the scope.
-– The main menu dial feels a bit delicate for the use of students. Students tend to be a bit harsh with their usage but the scope overall feels solidly built. Another thing was the probe connector- I might end up doing a teardown to see how the connector binds to the inside. The New MDO series has the connectors screwed to the PCB and not just soldered to it.
+* As a teaching aid, a few things like VGA out would have been nice. But beyond that, I was quickly able to deliver sessions without a hitch. The menus system is clear and ergonomically designed the scope allows even a newcomer to get comfortable easily. The presence of a function generator would have reduced the number of instruments on the bench.
+* The courseware software was easy to use but the traditional paper handout approach is a bit better. I found the students struggling to move around the scope.
+* The main menu dial feels a bit delicate for the use of students. Students tend to be a bit harsh with their usage but the scope overall feels solidly built. Another thing was the probe connector- I might end up doing a teardown to see how the connector binds to the inside. The New MDO series has the connectors screwed to the PCB and not just soldered to it.
 
 ## Dual window feature
 
@@ -135,17 +136,17 @@ The waveform inspector is a feature that is present in the more advanced product
 Even though Tek put a lot of thought on how to make this an educational scope, I think a few points were missed.
 On the positive front,
 
-– Good build quality
-– big display
-– automated measurements
-– low cost
+* Good build quality
+* big display
+* automated measurements
+* low cost
 
 are the highlights of this scope.
 
 On the negative front,
 
-– lack of VGA port
-– only 2 channels
+* lack of VGA port
+* only 2 channels
 
 are the lows.
 
