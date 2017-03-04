@@ -2,9 +2,22 @@
    MASTHEAD
    ========================================================================== */
 
+/* added by IP_v1 */
+$head-primary: #7b4397 ;
+$head-secondary: #dc2430 ;
+$theme-primary: #fdcc52 ;
+
 .masthead {
   position: relative;
-  background-color: #e91e63;
+  /* background-color: #e91e63; */
+
+  /* added by IP_v1 */
+  background: url("/assets/images/bg-pattern.png"), $head-primary;
+  /* fallback for old browsers */
+  background: url("/assets/images/bg-pattern.png"), -webkit-linear-gradient(to left, $head-primary, $head-secondary);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: url("/assets/images/bg-pattern.png"), linear-gradient(to left, $head-primary, $head-secondary);
+  
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -17,7 +30,7 @@
     @include clearfix;
     display: -webkit-box;
     display: flex;
-    background-color: #e91e63;
+    
     -webkit-box-pack: justify;
      justify-content: space-between;
     padding: 12px 12px 12px; /* 1em 1em 1em;  IP_v1*/
