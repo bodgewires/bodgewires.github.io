@@ -39,14 +39,14 @@ feature_row:
     alt: "fully responsive"
     title: "While You Were Out"
     excerpt: "An Office monitoring and control solution with a PSOC and Raspberry Pi 2"
-    url: "http://localhost:4000/project/project-while-you-were-out/"
+    url: "project/project-while-you-were-out/"
     btn_label: "Learn More"
 
   - image_path: /assets/images/mm-free-feature.png
     alt: "100% free"
-    title: "Nosy Electronics"
-    excerpt: "Using sensors to monitor the quality of air in the room"
-    url: "#"
+    title: "BBC microbit Line Follower"
+    excerpt: "A BBC micro bit based line follower!"
+    url: "project/project-while-you-were-out/bbc-microbit-robot/"
     btn_label: "Learn More"
 intro:
   - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @BodgeWires](https://twitter.com/bodgewires){: .btn .btn--twitter}'
