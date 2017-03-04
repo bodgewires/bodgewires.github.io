@@ -46,7 +46,7 @@ feature_row:
     alt: "100% free"
     title: "BBC microbit Line Follower"
     excerpt: "A BBC micro bit based line follower!"
-    url: "project/bbc-microbit-robot/"
+    url: "project/bbc-micro-bit-robot/"
     btn_label: "Learn More"
 intro:
   - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @BodgeWires](https://twitter.com/bodgewires){: .btn .btn--twitter}'
