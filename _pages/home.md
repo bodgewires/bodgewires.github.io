@@ -42,11 +42,11 @@ feature_row:
     url: "project/project-while-you-were-out/"
     btn_label: "Learn More"
 
-  - image_path: /assets/images/mm-free-feature.png
+  - image_path: /assets/images/microbit/microbit.png
     alt: "100% free"
     title: "BBC microbit Line Follower"
     excerpt: "A BBC micro bit based line follower!"
-    url: "project/project-while-you-were-out/bbc-microbit-robot/"
+    url: "project/bbc-microbit-robot/"
     btn_label: "Learn More"
 intro:
   - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @BodgeWires](https://twitter.com/bodgewires){: .btn .btn--twitter}'
