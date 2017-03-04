@@ -25,7 +25,7 @@ feature_row:
     alt: "100% free"
     title: "IoT Baby Room Light Project"
     excerpt: "A light control solution with a webapp"
-    url: "#"
+    url: "/project/iot-baby-light-1/"
     btn_label: "Learn More"
 
   - image_path: /assets/images/edisongardner/gardener.jpg
