@@ -58,14 +58,15 @@ Install em and create a workspace in your favourite location. There are now two 
 Flow the rabbit and select TI-RTOS empty (minimal) Example and give it a name.
 
 <figure class="half">
-    <img src="/assets/images/tirtos/2a.jpg">
-    <img src="/assets/images/tirtos/2b.jpg">
+    <img src="/assets/images/tirtos/2a.png">
+    <img src="/assets/images/tirtos/2b.png">
     <figcaption>Click Click Click</figcaption>
 </figure>
 
 Press that hammer button to check if it compiles. It should. The example comes with a Blinking LED Task that allows you to check if everything is all right and if you connect and program your launchpad, you should be able to see things work. For a demo and instructions on method two, take a look at the video below.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=hsEFg2-tShM" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hsEFg2-tShM" frameborder="0" allowfullscreen></iframe>
 
 
 ## What is POSIX
