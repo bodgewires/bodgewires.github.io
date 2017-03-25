@@ -4,6 +4,8 @@ permalink: /
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/bg.jpg
+  cta_label: "<i class='fa fa-pencil'></i> See The Wires"
+  cta_url: "/blog"
   caption:
 excerpt: 'A celebration of creativity and technology and the burning desire of a maker to create something from a vision. This blog is about making, re-making and learning by doing. Do-It-Yourself and have fun while you are at it.{::nomarkdown}<br />{:/nomarkdown}'
 feature_row:

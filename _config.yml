@@ -67,6 +67,11 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/ip_v1"
+    - "https://facebook.com/dr.inderpreet"
+    - "https://instagram.com/ip_v1"
+    - "https://www.linkedin.com/in/inderpreet"
+    - "https://google.com/+InderpreetSingh"
 
 # Analytics
 analytics:
@@ -80,7 +85,7 @@ author:
   name             : *name 
   avatar           : "/assets/images/ipv1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "...freelance engineer and blogger to the internet, father to a sneaky son, husband to a brilliant wife and I will have my PhD in this life or the next."
-  location         : "Somewhere"
+  location         : "India"
   email            :
   uri              : https://inderpreet.github.io
   bitbucket        :
