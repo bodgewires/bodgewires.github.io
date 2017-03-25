@@ -51,7 +51,7 @@ feature_row:
     url: "project/bbc-micro-bit-robot/"
     btn_label: "Learn More"
 intro:
-  - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @BodgeWires](https://twitter.com/bodgewires){: .btn .btn--twitter}'
+  - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @ip_v1](https://twitter.com/ip_v1){: .btn .btn--twitter}'
 ---
 
 {% include feature_row id="intro" type="center" %}
