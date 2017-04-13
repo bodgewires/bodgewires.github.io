@@ -2,7 +2,7 @@
 title:  "Anhad's Nappy: A Wet Nappy Sensor"
 excerpt: "Raising a baby is tough enough as it is and the bathroom habits of an infant and impossible to predict. In this project, we design a small sensor that alerts when a nappy needs changing."
 header:
-  image: /assets/images/unsplash-image-2.jpg
+  image: /assets/images/nappy/splash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories: 
   - Project

@@ -2,7 +2,7 @@
 title: "Getting Air Borne with the CC110L and MSP430"
 excerpt: "A startup project for using the Anaren CC110L and MSP430 with Code Composer Studio"
 header:
-  image: /assets/images/unsplash-image-2.jpg
+  image: /assets/images/cc110l/splash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories: 
   - Update

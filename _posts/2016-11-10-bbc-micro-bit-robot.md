@@ -2,7 +2,7 @@
 title:  "BBC Micro Bit based Line Follower Robot"
 excerpt: “An introduction to the BBC microbit and a tutorial on making a line following robot"
 header:
-  image: /assets/images/unsplash-image-2.jpg
+  image: /assets/images/microbit/splash.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories:
   - Project
