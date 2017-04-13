@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /
+permalink: /page
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/bg.jpg
