@@ -1,0 +1,39 @@
+---
+layout: archive
+---
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "New Posts" }}</h3>
+
+<section id="pinBoot">
+
+    {% for post in paginator.posts %}
+    	<article class="white-panel">
+    		<a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}">
+
+    			{% if post.header.image contains '.png'%}
+                	{% assign thumb = post.header.image | replace: '.png', '' %}
+                    	<img src="{{ thumb | append: '-450x253.png' }}" alt="{{ thumb }}">
+                    {% elsif post.header.image contains '.jpg'%}
+                    {% assign thumb = post.header.image | replace: '.jpg', '' %}
+                        <img src="{{ thumb | append: '-450x253.jpg' }}" alt="{{ thumb }}">
+                {% endif %}
+
+                <h4>{{ post.title}}</h4>
+                
+                <p class="date_text">{{ post.date | date: '%B %d, %Y' }}</p>
+	    		{% if post.read_time %}
+      				<p class="read_time"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+   				 {% endif %}
+
+	    		
+	    		{% if post.excerpt %}
+	    			<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncatewords: 15 }}</p>
+	    		{% endif %}
+
+	    	</a>
+    	</article>
+	{% endfor %}
+
+</section>
+
+{% include paginator.html %}
