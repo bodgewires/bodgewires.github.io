@@ -3,7 +3,7 @@ title:  "A 3D printed Enclosure for Digilent's Arty"
 excerpt: "An enclosure to protect the ARTY FPGA board while making it useful."
 header:
   image: /assets/images/arty_enc/splash.png
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  caption: "Arty Enclosure with Fusion 360"
 categories:
   - Project
 tags:
