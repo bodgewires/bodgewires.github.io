@@ -18,7 +18,7 @@ An enclosure is a necessary to protect electronic boards from damage. Needless t
 
 As a mini project, I took it upon myself to create a small cover for the said board and the stl file can be downloaded from the link below. The cover requires a cardboard piece to be cut and fitted to act as a base. This was made so that the base could be replaced by materials of user's choice and varied in size.
 
-<a href="https://bodgewires.github.io/assets/images/arty_enc/arty.stl"></a>![alt text](/assets/images/arty_enc/arty_enc.png){: .align-center}</a>
+<a href="https://bodgewires.github.io/assets/images/arty_enc/arty.stl">![alt text](/assets/images/arty_enc/arty_enc.png){: .align-center}</a>
 
 Let me know how it works out for you in the comments below. 
 
