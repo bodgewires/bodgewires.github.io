@@ -3,7 +3,7 @@ title:  "Building an IoT Light using Texas Instruments Parts - Part 1"
 excerpt: “An IoT Enabled Light design using TPS92512 and CC3200"
 header:
   image: /assets/images/iotlight/splash.png
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  caption: "Part - 1"
 categories:
   - Project
 tags:

@@ -3,7 +3,6 @@ title:  "Intel Edison Based Garden Management System"
 excerpt: “Using the Intel Edison, we automate the garden, soil and hydroponic."
 header:
   image: /assets/images/edisongardner/splash.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories:
   - Project
 tags:

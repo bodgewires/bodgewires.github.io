@@ -3,7 +3,6 @@ title: "Project-While You Were Out"
 excerpt: "Using the Cypress Analog CoProcessor and a Raspberry Pi 2, we automate and Office"
 header:
   image: /assets/images/whileuwereout/splash.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories: 
   - Project
 tags:
