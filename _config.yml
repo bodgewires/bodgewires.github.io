@@ -84,7 +84,7 @@ analytics:
 author:
   name             : *name 
   avatar           : "/assets/images/ipv1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "...freelance engineer and blogger to the internet, father to a sneaky son, husband to a brilliant wife and I will have my PhD in this life or the next."
+  bio              : "Freelance Maker, Engineer, Author and teacher. Contributor to @hackaday . Hardware, Software, 3d printing and everything else."
   location         : "India"
   email            :
   uri              : https://inderpreet.github.io
