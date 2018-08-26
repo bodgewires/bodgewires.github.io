@@ -12,11 +12,11 @@ $theme-primary: #fdcc52 ;
   /* background-color: #e91e63; */
 
   /* added by IP_v1 */
-  background: url("/assets/images/bg-pattern.png"), $head-primary;
+  // background: url("/assets/images/bg-pattern.png"), $head-primary;
   /* fallback for old browsers */
-  background: url("/assets/images/bg-pattern.png"), -webkit-linear-gradient(to left, $head-primary, $head-secondary);
+  // background: url("/assets/images/bg-pattern.png"), -webkit-linear-gradient(to left, $head-primary, $head-secondary);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("/assets/images/bg-pattern.png"), linear-gradient(to left, $head-primary, $head-secondary);
+  // background: url("/assets/images/bg-pattern.png"), linear-gradient(to left, $head-primary, $head-secondary);
   
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
@@ -45,6 +45,7 @@ $theme-primary: #fdcc52 ;
 
     a {
       text-decoration: none;
+      color: #000000 !important; /* Make it white IP_v1 */
     }
   }
 }
@@ -58,7 +59,7 @@ $theme-primary: #fdcc52 ;
         align-items: center;
   font-weight: bold;
   z-index: 20;
-  color: #ffffff !important; /* Make it white IP_v1 */
+  color: $head-secondary !important; /* Make it white IP_v1 */
 }
 
 .masthead__menu {
@@ -84,7 +85,7 @@ $theme-primary: #fdcc52 ;
   display: block;
   list-style-type: none;
   white-space: nowrap;
-
+  
   &--lg {
     padding-right: 2em;
     font-weight: 700;
