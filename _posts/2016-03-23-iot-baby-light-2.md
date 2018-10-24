@@ -18,9 +18,6 @@ Original Post is at: https://e2e.ti.com/blogs_/b/powerhouse/archive/2016/06/17/d
 
 In the first installment of this two-part series, I talked about an illuminating idea I had for a project I could use in my newborn baby’s room: an Internet of Things (IoT) modular light. I’ve done the prep, so now let’s create the prototype.
 
-{% include base_path %}
-
-{% include toc title="Contents" %}
 
 ## Creating a prototype
 

@@ -15,9 +15,7 @@ tags:
 
 The BBC Microbit is a small ARM based, user friendly, micro controller targeted towards computer education in the UK. It has been developed by the partnership of a long list of organisations including Microsoft, Element14, Nordic, NXP and many more. 
 
-{% include base_path %}
 
-{% include toc title="Contents" %}
 
 The intended audience is school children and there are four official ways to write programs for the BBC Micro Bit. They are.
 

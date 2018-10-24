@@ -15,9 +15,7 @@ tags:
 
 This is a simple prject where I use MSP430G2553 Microcontrollers with the Anaren CC110L Booster Packs to make a simple wireless node system. Nothing fancy and a barebones started project is provided for getting off the ground fast.
 
-{% include base_path %}
 
-{% include toc title="Contents" %}
 
 The basic concept is simple. We transmit with a function and stop otherwise. All-in-all the whole project is quite reusable and I intend to some stuff with it in the future.
 

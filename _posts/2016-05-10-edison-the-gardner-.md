@@ -15,9 +15,7 @@ tags:
 
 A lot of people think about starting gardening as a hobby and some even imagine growing their own vegetables and fruits at home. However as a consequence of busy schedules, most of us will never get the time to maintain the garden the way we want. Plants need consistent care and look after to flourish and bear fruit and with the advent of technology, we may be able to setup an electronic system to take over the chore of garden maintenance. This is the premise of our project, Edison The Gardener.
 
-{% include base_path %}
 
-{% include toc title="Contents" %}
 
 There are two common types of growing solutions that are common these days.
 

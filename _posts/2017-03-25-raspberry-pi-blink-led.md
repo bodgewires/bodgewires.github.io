@@ -17,9 +17,7 @@ The Raspberry Pi offers an array of general purpose Input-Output pins(GPIOs) whi
 
 In this experiment, we take a look as the essentials of GPIO control by toggling an LED at predefined intervals of time. This example can be extended by the user in a number of ways in other projects as well.
 
-{% include base_path %}
 
-{% include toc title="Contents" %}
 
 ## Materials and tools Required
 

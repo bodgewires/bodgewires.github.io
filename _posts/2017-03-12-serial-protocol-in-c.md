@@ -2,8 +2,6 @@
 title:  "Writing your own Serial Protocol using C"
 excerpt: "In this article, I take a look at designing and implementing a simple serial protocol using C. It can be used in microcontrollers or Single Board Computers"
 header:
-  image: /assets/images/unsplash-image-2.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories:
   - Tutorial
 tags:
@@ -18,9 +16,6 @@ A protocol is a predefined agreement and sequence of steps that is followed to s
 
 ## Existing protocols - A survey
 
-{% include base_path %}
-
-{% include toc title="Contents" %}
 
 Over the years, many big companies have come to create solutions for the communication problem. If you don’t already know the big names are UART, I2C/TWI, SPI, CAN, LIN are the most popular. Dedicated peripheral hardware blocks have been designed for these and are a part of modern microcontrollers like AVR, PIC and the list goes on. It is important to understand these existing standards before we start with our own experiment. In the proceeding section, I will explain the protocols in brief and complete details can be read in their respective specification documentation. I will also try to simplify the explanation to accelerate the process and if something comes out ’not right’ please leave a comment and I shall do the needful.
 

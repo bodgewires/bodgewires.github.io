@@ -17,9 +17,6 @@ tags:
 
 The Arduino Genuino 101 is the result of collaboration between Massimo Banzi and Intel and features the Intel Curie Processor. The board also features sensors such as accelerometers and gyroscopes and has BLE or Bluetooth Low Energy which enables communication with smart-phones etc. In this review I take a look at the hardware in detail and compare it with the BBC Micro bit and make some basic projects that can help the beginner get off the ground.
 
-{% include base_path %}
-
-{% include toc title="Contents" %}
 
 
 

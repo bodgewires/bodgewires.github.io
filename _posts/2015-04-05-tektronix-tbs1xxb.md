@@ -20,9 +20,6 @@ The EDU series allows for the instruction manual to be integrated onto the oscil
 
 This review is for the TBS1202B-EDU which is the top of the line model in the series.
 
-{% include base_path %}
-
-{% include toc title="Contents" %}
 
 ## Specifications and Key features
 

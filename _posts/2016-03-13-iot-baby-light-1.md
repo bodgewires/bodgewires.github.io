@@ -20,9 +20,6 @@ LED lighting applications have revolutionized the world – not only in general 
 
 In the winter of 2015, element14, Texas Instruments and Würth Elektronik invited a select group of designers to a “road test plus” – we were told to design something around the TI TPS92512 buck LED driver using evaluation boards and parts. My application was accepted to participate and I went on to implement a simple yet practical Internet of Things (IoT)-based lighting solution that won the challenge in the end.
 
-{% include base_path %}
-
-{% include toc title="Contents" %}
 
 In this two-part series, I’ll summarize my experience with and thought process behind the challenge, highlighting key milestones in the implementation process. What initially started as a prototype project which could be used for a multitude of things finally evolved into a multipurpose IoT light that I used in my newborn’s room.
 

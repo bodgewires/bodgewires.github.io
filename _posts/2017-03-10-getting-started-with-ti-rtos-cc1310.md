@@ -15,9 +15,7 @@ tags:
 
 The CC1310 is a sub Ghz single chip solution that run its RF core on a Arm Cortex M0 and the Application processor is an Arm cortex M3 which means it is very flexible in terms of applications. Since things can get very complicated very quickly, TI recommends not developing native applications like for the MSP430 and AVR that is the bread and butter of most firmware. Instead, they recommend using TI RTOS to host your applications and provide a generous load of examples and what not to aid getting of the ground quickly. 
 
-{% include base_path %}
 
-{% include toc title="Contents" %}
 
 Unfortunately, there is more than one way to skin a cat and Code Composer Studio can seem downright scary to the new-comer. In this article, I discuss the use of TI RTOS with CCS 7 and touch on pThreads for the POSIX aware readers out there.
 

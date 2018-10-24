@@ -4,6 +4,8 @@ excerpt: "Using Technology to connect our holiday lights to the Internet."
 header:
   image: /assets/images/iotholiday/splash.jpg
   caption: "Connecting You Holidays to the Internet"
+
+image: /assets/images/iotholiday/splash.jpg
 categories:
   - Project
 tags:
@@ -18,9 +20,6 @@ tags:
 
 At the end of 2014, Infineon, MCM electronics and Element14, sponsored a IoT Holiday Lights challenge where 20 people were asked to use an Infineon RGB LED Shield, Arduino Yun and an Arduino Uno in a Holiday lights project that utilised the connectivity to the internet. We designed a Living Room lights setup in our own living room to create an extravaganza of lights which were controlled by music as well as the user’s commands. OpenHAB was employed to be the Front end for the control panel which could be accessed by a mobile device over the network. The final result was demonstrated using the video shown below and we won the first prize which was a CelRobox which is a 3D printer.
 
-{% include base_path %}
-
-{% include toc title="Contents" %}
 
 ## INTRODUCTION
 

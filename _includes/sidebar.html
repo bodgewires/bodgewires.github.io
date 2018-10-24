@@ -8,7 +8,7 @@
         {% if s.image contains "://" %}
           "{{ s.image }}"
         {% else %}
-          "{{ s.image | absolute_url }}"
+          "{{ s.image | relative_url }}"
         {% endif %}
         alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
       {% endif %}
@@ -19,22 +19,5 @@
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
   {% endif %}
-  </div>
-{% endif %}
-
-<!-- Added a sidebar ads variable and displayed amazon ads by IP_v1 -->
-{% if page.sidebar_ads %}
-  <div class="sidebar sticky">
-    {% raw %}
-      <div>
-      ------
-      <script type="text/javascript" language="javascript">
-      var aax_size='160x600';
-      var aax_pubname = 'inderpreet-21';
-      var aax_src='302';
-      </script>
-      <script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>
-      </div>
-    {% endraw %}
   </div>
 {% endif %}

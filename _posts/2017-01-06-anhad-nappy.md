@@ -15,9 +15,7 @@ tags:
 
 Raising a baby is tough enough as it is and the bathroom habits of an infant and impossible to predict. For some newborns, its viable to use disposable diapers however in most cases, the soft skin of the child is prone to rashes and the like with the use of harsh materials. When my son was born we were faced with a similar dilemma and as a result, we voted to employ cloth diapers. These are gentle to the skin however they tend to get wet once the child passes any fluid like material. This gets worse during the cold months and a consistent watch needs to be kept over the kid to ensure the change in nappy is as immediate as possible. This is the basis for my project titled “Anhad’s Nappy” which uses a low power micro controller to sense fluids and alert the caregivers of the situation.
 
-{% include base_path %}
 
-{% include toc title="Contents" %}
 
 In this blog post, the concept, design and implementation is discussed along with the demonstration and testing of the final prototype. This document presents the complete flow along with instructions for the readers who intend to replicate this project. The bill-of-materials, PCB gerbers, Oshpark project link and link to the github repository are provided under GPLv2 for anyone interested.
 

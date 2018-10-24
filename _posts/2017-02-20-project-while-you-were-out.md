@@ -15,9 +15,7 @@ tags:
 
 Like many people, I work in a room with a workbench, lights, fans, Air-Conditioning and bench test equipment etc. During work hours I have a habit of taking trips away from the bench for a multitude of reasons which includes
 
-{% include base_path %}
 
-{% include toc title="Contents" %}
 
 * visits to the little boy’s room,
 * taking personal phones calls,

@@ -16,6 +16,10 @@ tags:
   - Node-Red
   - Python
   - C++
+toc: true
+toc_label: "Table Of Contents"
+toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
+toc_sticky: true
 ---
 
 ## INTRODUCTION
@@ -23,10 +27,6 @@ tags:
 In the April of 2017, RS components and [The Breadboard](https://www.thebreadboard.ca) launched a competition on [Hackster.io](https://www.hackster.io) and challenged us to create a project using the Siemens IoT2020. The theme was industrial automation since the IoT2000 is designed for industrial applications and the sky was the limit. 
 
 My idea was to explore the capabilities of the IoT2020 in terms of the languages it could be programmed in. Since the target audience for the platform is makers who intend to develop an industrial project, it seemed just that all the maker friendly languages be tested out.
-
-{% include base_path %}
-
-{% include toc title="Contents" %}
 
 For my case study, I chose to work with the following languages.
 
