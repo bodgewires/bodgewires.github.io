@@ -31,17 +31,10 @@ The official TI webpage can be found at http://www.ti.com/tool/ti-rtos
 
 ## The CC1310 sub GHz launchpad
 
-This launchpad is very special since they are designed for low power and long range. When I say long range, I mean, 20KMs on a coin cell. Yea. Thats right! 
+![alt text](/assets/images/tirtos/1.gif){: .align-center}
+This launchpad is very special since they are designed for low power and long range. When I say long range, I mean, 20KMs on a coin cell. Yea. Thats right! [Check this out](http://www.cnx-software.com/2015/12/18/ti-simplelink-cc1310-wireless-mcu-promises-20-km-range-20-year-battery-life-on-a-coin-cell/) [and this](http://links.mkt102.com/servlet/MailView?ms=NTAyNzcwMDES1&r=MTE1NzI3Mzc1MjM3S0&j=ODIyNjg5MDY2S0&mt=1&rt=0). So this means even without the whip antenna I can still get a decent range out of these modules and that's the reason I plan to use them in my ongoing project. 
 
-![alt text](/assets/images/tirtos/1.gif){: .align-right}
-
-[Check this out](http://www.cnx-software.com/2015/12/18/ti-simplelink-cc1310-wireless-mcu-promises-20-km-range-20-year-battery-life-on-a-coin-cell/)
-
-[and this](http://links.mkt102.com/servlet/MailView?ms=NTAyNzcwMDES1&r=MTE1NzI3Mzc1MjM3S0&j=ODIyNjg5MDY2S0&mt=1&rt=0)
-
-So this means even without the whip antenna I can still get a decent range out of these modules and that's the reason I plan to use them in my ongoing project.
-
-The official TI link is [http://www.ti.com/tool/launchxl-cc1310](http://www.ti.com/tool/launchxl-cc1310)
+The official TI link is [here](http://www.ti.com/tool/launchxl-cc1310)
 
 ## Getting back to TI RTOS
 
@@ -57,7 +50,6 @@ Flow the rabbit and select TI-RTOS empty (minimal) Example and give it a name.
 <figure class="half">
     <img src="/assets/images/tirtos/2a.png">
     <img src="/assets/images/tirtos/2b.png">
-    <figcaption>Click Click Click</figcaption>
 </figure>
 
 Press that hammer button to check if it compiles. It should. The example comes with a Blinking LED Task that allows you to check if everything is all right and if you connect and program your launchpad, you should be able to see things work. For a demo and instructions on method two, take a look at the video below.
