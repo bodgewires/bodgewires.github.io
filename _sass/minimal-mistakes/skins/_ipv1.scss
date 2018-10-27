@@ -71,7 +71,7 @@ button.btn.btn--inverse{
   background: #333333 !important;
 }
 
-.sidebar.sticky{
+div.author__content{
   color: tomato !important;
 }
 
@@ -102,6 +102,10 @@ a{
 
 p.read_time {
   color: tomato !important;
+}
+
+body{
+  background: #333333 !important;
 }
 /* contrast syntax highlighting (base16) */
 $base00: #000000 !default;
