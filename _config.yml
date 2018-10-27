@@ -95,13 +95,13 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/ipv1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Embedded System Engineer and Integrator, Freelance Maker, Author and teacher. Contributor to @hackaday . Hardware, Software, 3d printing and everything else."
+  bio              : "Maker and Writer"
   location         : "Canada"
   email            : "inderpreet.v1@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: inderpreet.v1@gmail.com"
+      # url: "mailto:inderpreet.v1@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://inderpreet.github.io"
@@ -113,7 +113,7 @@ author:
       url: "https://facebook.com/dr.inderpreet"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/inderpreet"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -129,7 +129,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/inderpreet"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
