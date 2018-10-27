@@ -18,7 +18,7 @@ tags:
   - C++
 toc: true
 toc_label: "Table Of Contents"
-toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
+toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
 toc_sticky: true
 ---
 
