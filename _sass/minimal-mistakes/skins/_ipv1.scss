@@ -115,6 +115,13 @@ body{
 .sidebar li{
   color: tomato !important;
 } 
+
+figcaption{
+  color: whitesmoke !important;
+  font-family: inherit !important;
+  font-weight: bold;
+  text-align: center;
+}
 /* contrast syntax highlighting (base16) */
 $base00: #000000 !default;
 $base01: #242422 !default;
