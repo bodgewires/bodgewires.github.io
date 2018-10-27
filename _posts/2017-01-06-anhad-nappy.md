@@ -25,8 +25,9 @@ There are a number of methods to measure the level and presence of liquids which
 
 ![alt text](https://2.bp.blogspot.com/-DGzEolegkM8/WIb7d1Gru9I/AAAAAAAAYtI/k-sGC3jeW5sJ0bCKDD3Y_5hqAluBMcKtQCEw/s320/Screen%2BShot%2B2016-12-28%2Bat%2B11.43.46%2BPM.png "Voltage Divider"){: .align-center}
 
-Figure 1: The Sensory Voltage Divider circuit
-
+<div align="center" style="font-size:0.7em">
+<strong>Figure 1: The Sensory Voltage Divider circuit</strong>
+</div>
 
 Figure 1 shows the sensory voltage divider circuit where R1 is the resistance due to the liquid and R2 is the balance resistor for creating the voltage divider. An alternative configuration may employ a wheatstone bridge however the additional two resistors are unnecessary. The operation of the circuit can be explained as follows.
 
@@ -50,7 +51,11 @@ This voltage can be used in a multitude of ways including triggers to comparator
 
 ![alt text](https://4.bp.blogspot.com/-u0if0r0CG80/WIb7km7gtFI/AAAAAAAAYtM/ZB2bU_LCYwEMs0lIfkVzCf0ztPjnGG__ACEw/s320/Screen%2BShot%2B2016-12-31%2Bat%2B2.45.37%2BPM.png "Screen Shot"){: .align-center}
 
+<div align="center" style="font-size:0.7em">
+<strong>
 Figure 2: The MSP430G Data-sheet/Feature List
+</strong>
+</div>
 
 The other features of the MSP430 are listed in the data sheet and Figure 2 shows an excerpt from the same.
 
@@ -64,14 +69,22 @@ In the above discussion, the predefined sequence of pulse cannot be created usin
 
 ![alt text](https://4.bp.blogspot.com/-2b40OZXSOmE/WIb7sJ1_LRI/AAAAAAAAYtQ/riGYZOD_1mcSPv6YIiNTSDYackoFCOR_gCEw/s320/Slide1.png "Flow Chart"){: .align-center}
 
+<div align="center" style="font-size:0.7em">
+<strong>
 Figure 3: Flowchart for the software routine.
+</strong>
+</div>
 
 Testing the waters using a LaunchPad
 The first prototype was made using a launchpad for testing the performance of the device. Short leads were connected to the analog pins and suspended in a container. Water was poured and the value of the ADC was monitored via the serial terminal using the example program in Energia.
 
 ![alt image](https://4.bp.blogspot.com/-4eWZqMMZrJA/WIb7R628w3I/AAAAAAAAYtE/nl9ajmhNTpQk8lxYjVO-kLuvuo6pcBS2gCEw/s320/IMG_3343.JPG "Launchpad"){: .align-center}
 
+<div align="center" style="font-size:0.7em">
+<strong>
 Figure 4: The test setup using the MSP430G2 Launchpad
+</strong>
+</div>
 
 It was seen that using tap water, the ADC varied from xxxxxxx to xxxxxx
 This means that the value of threshold can be hard coded to a value of xxxxxx for comparison.
@@ -84,12 +97,20 @@ A small general purpose PCB was cut and the components laid out and soldered man
 
 ![alt text](https://4.bp.blogspot.com/-Ep15I15t7dI/WIb65l-9a6I/AAAAAAAAYtA/gNNp7BMYB3oaKTt3KiV4DfUUmxjR_yPjACEw/s320/5224BA11-7ABD-422C-8932-EB3B241403CB.png){: .align-center}
 
+<div align="center" style="font-size:0.7em">
+<strong>
 Figure 5: final circuit.
+</strong>
+</div>
 
 The LED is used for indication while an IR LED is used to signal a remote receiver. The code for that is to discussed I a different writing however the circuit is designed with the application under due consideration. The prepared PCB is shown in figure 6 and is powered using two AAA cells. The circuit is programmed using an MSP430 launchpad using the programming headers by using jumper cables.
 ![alt text](https://2.bp.blogspot.com/-YpSO0ajZQTs/WIb8FwcMGwI/AAAAAAAAYtU/H6fx6WHLUSA6WsqooyHKoT8E2cczSPQKgCEw/s320/IMG_1576.JPG){: .align-center}
 
+<div align="center" style="font-size:0.7em">
+<strong>
 Figure 6: Final Circuit on General Purpose PCB
+</strong>
+</div>
 
 ## Enclosure
 
@@ -99,7 +120,11 @@ Figure 7 shows the final enclosure which also holds the AAA cells along with the
 
 ![alt text](https://2.bp.blogspot.com/-gf8IGWYvwzI/WIb8F-4CRiI/AAAAAAAAYtY/OR2ssI4YnNsJ4T6wyPYv0uqU46vzmGTpgCEw/s320/IMG_1580.JPG){: .align-center}
 
+<div align="center" style="font-size:0.7em">
+<strong>
 Figure 7: Final enclosure with top closed
+</strong>
+</div>
 
 ## Demo Video
 
