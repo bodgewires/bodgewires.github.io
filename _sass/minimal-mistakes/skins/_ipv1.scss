@@ -67,6 +67,42 @@ button.btn.btn--inverse{
   color: tomato !important;
 }
 
+.initial-content{
+  background: #333333 !important;
+}
+
+.sidebar.sticky{
+  color: tomato !important;
+}
+
+.page{
+  color: whitesmoke !important;
+}
+
+.page__meta{
+  color:tomato !important;
+}
+
+.page__related{
+  color: whitesmoke !important;
+}
+
+th{
+  color: tomato;
+  background: #333333;
+}
+
+a{
+  color: tomato !important;
+}
+
+.page__share a{
+  color: whitesmoke !important;
+}
+
+p.read_time {
+  color: tomato !important;
+}
 /* contrast syntax highlighting (base16) */
 $base00: #000000 !default;
 $base01: #242422 !default;
