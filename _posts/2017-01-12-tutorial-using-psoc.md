@@ -1,5 +1,5 @@
 ---
-title: "How to get started with Cypress PSOC Analog Co-Processors"
+title: "Tutorial - How to get started with Cypress PSOC Analog Co-Processors"
 excerpt: "A video tutorial on getting started with Cypress PSOCs and PSOC Creator Software"
 header:
   image: /assets/images/whileuwereout/splash.jpg

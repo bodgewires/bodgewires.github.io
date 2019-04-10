@@ -1,5 +1,5 @@
 ---
-title:  "Blinking an LED with the raspberry Pi"
+title:  "Project - Blinking an LED with the raspberry Pi"
 excerpt: "The hello world of the hardware is the blinking LED and this post I take you through the steps of getting started with the Raspberry Pis"
 header:
   image: /assets/images/rpi-blink/splash.png

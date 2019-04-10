@@ -1,5 +1,5 @@
 ---
-title:  "Building an IoT Light using Texas Instruments Parts"
+title:  "Project - Building an IoT Light using Texas Instruments Parts"
 excerpt: “An IoT Enabled Light design using TPS92512 and CC3200"
 header:
   image: /assets/images/iotlight/splash.png
@@ -26,20 +26,20 @@ As shown in the block diagram in Figure 1 from the previous post, a TI SimpleLin
 I set up the CC3200 wireless MCU LaunchPad kit with the latest firmware and programmed the kit to talk to a particular topic at the Message Queue Telemetry Transport (MQTT) broker. MQTT is a protocol with very small overhead and allows for a server/client topology to create communication connections over the Internet. Facebook Messenger uses MQTT, and it is one of the more popular protocol projects being tuned to power the future IoT.
 
 For my project, I also designed a small printed circuit board (PCB) that I framed as a Booster Pack™ plug-in module; the result is shown in Figure 1. You can stack a number of these PCBs to achieve the required number of LED drive channels.
- 
+
 ![alt text](/assets/images/iotlight/b1.png){: .align-center}
 
 Figure 1: A screenshot of the schematic for the TPS92512 BoosterPack
 
 I was able to fit the design into a 50mm-by-50mm form factor, which would reduce manufacturing costs if mass-produced. Figure 2 shows a screenshot of the final layout which has four mounting holes as well as the BoosterPack module pin conformity.
- 
+
 ![alt text](/assets/images/iotlight/b2.png){: .align-center}
 
 Figure 2: Screenshot of the final layout for the TPS92512 BoosterPack
 
 I used the schematic and layout from the evaluation module as a guide.
 Würth Elektronik provided the coils as well as the electromechanical parts, which was a big help since they made the footprints for all of the parts available as well. Getting the board design ready was a breeze. Printing the layout and checking the footprints as shown in Figure 3, confirmed that everything was indeed in order.
- 
+
 ![alt text](/assets/images/iotlight/b3.png){: .align-center}
 
 Figure 3: Footprint verification via 1:1 paper print of the layout
@@ -47,7 +47,7 @@ Figure 3: Footprint verification via 1:1 paper print of the layout
 ## The Web client design
 
 With my basic understanding of HTML, Code Composer Studio IDE and JavaScript®, I was able to create a simple user interface (UI) for my project. The idea was to create buttons in a web interface and then use JavaScript to send the commands via MQTT to the broker and finally to the IoT light. I used the Paho library in JavaScript and performed a bit of cosmetic surgery via Code Composer Studio to create a webpage that looks nice; Figure 4 is a screenshot.
- 
+
 ![alt text](/assets/images/iotlight/b4.png){: .align-center}
 
 Figure 4: The live webpage for remote control
@@ -57,7 +57,7 @@ I kind of went overboard with the home-automation front end, but you get the ide
 ## The love and romance
 
 I had worked out the technical details of the project, but it was more or less a science project. The real evolution came when my wife suggested that I turn the prototype into a real product for our own use. We were expecting a baby at the time and she requested a room light whose brightness we could control remotely. The same light would be usable as a room light, a night-light and a midnight-diaper-change light. Instead of 3-D printing an enclosure or something, I decided to recycle an old LCD monitor, some glass and a birthday card from before we were married. The romance was still alive and it was time to light things up. The manual layout of the components inside the enclosure is shown in Figure 5.
- 
+
 ![alt text](/assets/images/iotlight/b5.png){: .align-center}
 
 Figure 5: Various modules laid out in the recycled PC monitor

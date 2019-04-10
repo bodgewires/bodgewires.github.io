@@ -1,5 +1,5 @@
 ---
-title:  "Project: DIY Constant Current Load"
+title:  "Project - DIY Constant Current Load"
 excerpt: "The simplest Do-It-Yourself Constant Current Load"
 header:
   image: /assets/images/diyconstantcurrentload/splash.jpg
@@ -69,7 +69,7 @@ One point to be noted is that at 1 Amp of current, the drop on Rsense would be 1
 I designed this module to work as a standalone project however there are a number of things that can be done in the future. The first being the addition of an Totem-Pole Driver stage to the MOSFET to increase switching speed. This is easier said than done however it addresses the issue raised in the previous section.
 
 The second modification is using a DAC to digitally control the set current. The buffer could be converted into a gain stage and it could be digitally controlled. Next would be the addition of an ADC to monitor the actual current flowing. An INA219 could be used directly if the circuit were to be made anew and on a dedicated PCB.
- 
+
 Lastly, a self resetting fuse and temperature sensor could be a handy feature for long term use. A DS1307 could be used for the RTC and store current and voltage data until it is retrieved. This could be furthered by the addition of a memory card hence the possibilities are endless.
 
 This is a quick and dirty solution for the procrastinating maker and enthusiasts and I hope it finds use in your hobby shop.

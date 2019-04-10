@@ -1,5 +1,5 @@
 ---
-title:  "BBC Micro Bit based Line Follower Robot"
+title:  "Project - BBC Micro Bit based Line Follower Robot"
 excerpt: “An introduction to the BBC microbit and a tutorial on making a line following robot"
 header:
   image: /assets/images/microbit/splash.jpg

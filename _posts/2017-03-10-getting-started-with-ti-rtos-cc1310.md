@@ -1,5 +1,5 @@
 ---
-title:  "Getting Started with TI RTOS and the Texas Instruments CC1310 Launchpad"
+title:  "Tutorial - Getting Started with TI RTOS and the Texas Instruments CC1310 Launchpad"
 excerpt: "A quick look at how to make a TI RTOS Project using Code Composer Studio and a touch on POSIX"
 header:
   image: /assets/images/tirtos/splash.jpg

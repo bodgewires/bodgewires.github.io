@@ -1,5 +1,5 @@
 ---
-title:  "Arduino Genuino 101 Review and Getting Started"
+title:  "Review - Arduino Genuino 101 Review and Getting Started"
 excerpt: "I take a look at the Arduino Genuino 101 with the Intel Curie Processor and compare it with other blueooth boards. I also look at small demo projects for the same."
 header:
   image: /assets/images/genuino/splash.jpg

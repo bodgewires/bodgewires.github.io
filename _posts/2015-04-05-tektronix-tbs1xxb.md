@@ -10,6 +10,10 @@ tags:
   - instrument
   - bench
   - tools
+toc: true
+toc_label: "Table Of Contents"
+toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
+toc_sticky: true
 ---
 
 ## INTRODUCTION
@@ -46,15 +50,15 @@ This review is for the TBS1202B-EDU which is the top of the line model in the se
 
 The package contents were pretty straightforward. Along with the unit was a power cable, manual, CD, Calibration certificate and two probes model TPP0201.
 
-![alt text](/assets/images/tbs1xxb/1.jpg){: .align-center}
+![alt text](/assets/images/tbs1xxb/oob.jpg "Out of the Box"){: .align-center}
 
-Out of The BoxOut of The Box
+Out of The Box
 
 I was initially a bit disappointing with the probes which are a fixed 10x attenuation probes and felt a bit ‘cheap’. But I am comparing with the probes I used with the MSO2024B.
 
-![alt text](/assets/images/tbs1xxb/2.jpg){: .align-center}
+![alt text](/assets/images/tbs1xxb/probes.jpg "TPP0201 Probes"){: .align-center}
 
-TPP0201 ProbesTPP0201 Probes
+TPP0201 Probes
 
 Considering the price I think they are worth every penny.
 

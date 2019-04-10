@@ -1,5 +1,5 @@
 ---
-title:  "Writing your own Serial Protocol using C"
+title:  "Tutorial - Writing your own Serial Protocol using C"
 excerpt: "In this article, I take a look at designing and implementing a simple serial protocol using C. It can be used in microcontrollers or Single Board Computers"
 header:
 categories:

@@ -1,5 +1,5 @@
 ---
-title: "Getting Air Borne with the CC110L and MSP430"
+title: "Tutorial - Getting Air Borne with the CC110L and MSP430"
 excerpt: "A startup project for using the Anaren CC110L and MSP430 with Code Composer Studio"
 header:
   image: /assets/images/cc110l/splash.jpg

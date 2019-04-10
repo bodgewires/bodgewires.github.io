@@ -1,5 +1,5 @@
 ---
-title:  "Project: IoT Boiler Controller using Siemens IoT 2020"
+title:  "Project - IoT Boiler Controller using Siemens IoT 2020"
 excerpt: "Creating a Safe Demonstration of an Industrial Boiler Control Using the IoT2020"
 header:
   image: /assets/images/iot2020/splash.jpg

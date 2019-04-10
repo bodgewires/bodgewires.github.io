@@ -1,5 +1,5 @@
 ---
-title:  "The Internet Of Holiday Lights"
+title:  "Project - The Internet Of Holiday Lights"
 excerpt: "Using Technology to connect our holiday lights to the Internet."
 header:
   image: /assets/images/iotholiday/splash.jpg
