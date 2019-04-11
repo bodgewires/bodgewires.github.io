@@ -9,6 +9,10 @@ tags:
   - arduino
   - genuino
   - review
+toc: true
+toc_label: "Table Of Contents"
+toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
+toc_sticky: true
 ---
 
 ## INTRODUCTION

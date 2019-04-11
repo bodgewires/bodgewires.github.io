@@ -12,6 +12,10 @@ tags:
   - Analog
   - Coprocessor
   - PSOC Creator
+toc: true
+toc_label: "Table Of Contents"
+toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
+toc_sticky: true
 ---
 
 The Cypress PSOC platform is great for those who want to want to work with Programmable Systems On Chip allowing the use of visual and textual hardware configured in conjunction with industry standard ARM processors. In this video, I take a look at the Cypress Analog Co Processor Kit. The official website is at [here](http://www.cypress.com/products/psoc-analog-coprocessor) and in my video, I take a look at the PSOC Kit as well as the PSOC Creator Software.

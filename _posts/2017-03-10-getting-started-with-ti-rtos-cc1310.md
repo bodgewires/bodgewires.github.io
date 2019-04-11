@@ -9,6 +9,10 @@ tags:
   - TI
   - RTOS
   - CC1310
+toc: true
+toc_label: "Table Of Contents"
+toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
+toc_sticky: true
 ---
 
 ## Getting started with TI RTOS and CC1310
