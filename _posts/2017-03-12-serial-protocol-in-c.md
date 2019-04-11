@@ -8,13 +8,21 @@ tags:
   - Linux
   - C
   - programming
+toc: true
+toc_label: "Table Of Contents"
+toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
+toc_sticky: true
 ---
 
-## INTRODUCTION
+## Description
+
+Implementing a protocol in different languages takes different methodologies. This tutorial is an implementation of the TLV Protocol in Embedded C meant to be deployed on devices with low resources.
+
+## Details
 
 A protocol is a predefined agreement and sequence of steps that is followed to send data from one point to the other over a medium of transmission. We talk to each other by sound and sight where one looks towards the person or calls out the name and then starts speaking. The same way electronic communication works and is the backbone of many systems today. In this article, I talk about designing, implementing and testing a simple communication protocol for use with microcontrollers and single board computers.
 
-## Existing protocols - A survey
+### Existing protocols - A survey
 
 
 Over the years, many big companies have come to create solutions for the communication problem. If you don’t already know the big names are UART, I2C/TWI, SPI, CAN, LIN are the most popular. Dedicated peripheral hardware blocks have been designed for these and are a part of modern microcontrollers like AVR, PIC and the list goes on. It is important to understand these existing standards before we start with our own experiment. In the proceeding section, I will explain the protocols in brief and complete details can be read in their respective specification documentation. I will also try to simplify the explanation to accelerate the process and if something comes out ’not right’ please leave a comment and I shall do the needful.
@@ -66,7 +74,7 @@ The disadvantage of this scheme is the extra number of pins required. Additional
 
 Just worth mentioning, are CAN and MODbus since these are application specific protocols and it would benefit the curious mind to read about these on their own. A detailed discussion would be of no use here and hence is beyond the scope of this document.
 
-## The problem statement
+### The Problem statement
 
 All of these protocols are different in some way. If an application demands a change from one of these protocols, it becomes even more obtuse. For example, if one wishes to use say TCP/IP or even MQTT which is a layer on top of TCP/IP, it would be difficult for everyone to be on the same page. In our case, since we have no hardware support for I2C slaves, we wish to use something like UART. This may be upgraded to MQTT in the future and this is our SRS or requirement.
 
@@ -74,7 +82,7 @@ Requirement: A protocol layer that can be used on microcontrollers and SBCs and 
 
 This means, we need to start designing something on paper before we write the code.
 
-## The Design
+### The Design
 
 This clearly is a protocol layer that will work on top of a signalling layer hence we need only describe data packaging and handling. We will need timeouts for failed transactions which could be optional and an addressing scheme to allow for multiple nodes. Lets being.
 
@@ -96,7 +104,7 @@ Here is my version of the state diagram for the receive.
 
 This diagram shows how the transactions will happen and the steps that the computer must follow. Some states may be merged in the final code however it is necessary to first draw out everything for the sake of understanding. Next comes the code.
 
-## Coding things
+## Implementation
 
 Depending upon the deployment platform, a user may choose his favourite language. For example, for hardware deployment as an IP Core, VHDL may be preferred or even Verilog. In my case the language will be C. This can be deployed on Microcontrollers, Linux and your favourite RTOS as well.
 
@@ -403,10 +411,10 @@ if( event_get() == timeout ){
 
 That’s it. We have a written a basic machine to get a chunk of data. The only thing missing is some writing data stuff. This I leave for now. You can printf it or send it or in my case I would memcpy it to a predefined pointer.
 
+## Lessons Learned
+
 I think that is enough for this instalment but in the next article, I will test this code out, write another layer on this one so that I can really extract some information out of it in a format for my choice. This will be useful for sending floats and long type data over a stream. In a later article, I will do the same state machine using pointer and enumerated data types and lookup tables in C.
 
 Let me know what you think because its a learning process and I want you to share a comment for my time.
 
-Happy hacking.
-IP
 
