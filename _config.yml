@@ -81,7 +81,6 @@ social:
     - "https://facebook.com/dr.inderpreet"
     - "https://instagram.com/ip_v1"
     - "https://www.linkedin.com/in/inderpreet"
-    - "https://google.com/+InderpreetSingh"
 
 # Analytics
 analytics:
@@ -95,7 +94,7 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/ipv1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Maker and Writer"
+  bio              : "Embedded Systems Solutions Architect with 8 years of High Performance System Design Experience. Microcontrollers, Embedded Linux, C/C++ and Computer Vision."
   location         : "Canada"
   email            : "inderpreet.v1@gmail.com"
   links:
