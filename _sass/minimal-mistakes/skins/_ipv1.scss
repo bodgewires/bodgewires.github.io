@@ -44,13 +44,22 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 .greedy-nav a{
   color: tomato !important;
+  font-weight: bold;
 }
 
 .greedy-nav {
-  background: rgba(0, 0, 0, 0) !important;
+  background: rgba(255, 255, 255, 0.8) !important;
 }
 .masthead {
-  background: #333333 !important;
+  background:url('/assets/images/bg.jpg') !important;
+}
+
+.greedy-nav a.site-title {
+  background: url('/assets/images/bodgewires.png');
+  background-size:     contain;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;  
+  color: rgba(0,0,0,0) !important;
 }
 
 p.page__meta{
