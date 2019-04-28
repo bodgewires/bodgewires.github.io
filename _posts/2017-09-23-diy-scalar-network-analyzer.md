@@ -2,7 +2,7 @@
 title:  "Project - DIY Scalar Network Analyzer"
 excerpt: "Research need not be expensive and this projects helps a little."
 header:
-  image: /assets/images/scalarnetwork/splash.jpg
+  image: /assets/images/scalarnetworkanalyzer/splash.jpg
   caption: "DIY Scalar Network Analyzer"
 categories:
   - Project
