@@ -1,11 +1,10 @@
 ---
+layout: post
 title:  "Project - The Internet Of Holiday Lights"
-excerpt: "Using Technology to connect our holiday lights to the Internet."
-header:
-  image: /assets/images/iotholiday/splash.jpg
-  caption: "Connecting You Holidays to the Internet"
-
-image: /assets/images/iotholiday/splash.jpg
+description: "Using Technology to connect our holiday lights to the Internet."
+image: assets/images/iotholiday/splash.jpg
+featured: true
+author: ipv1
 categories:
   - Project
 tags:
@@ -14,11 +13,10 @@ tags:
   - Lights
   - Linux
   - OpenHAB
-toc: true
-toc_label: "Table Of Contents"
-toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
-toc_sticky: true
+
 ---
+
+Using Technology to connect our holiday lights to the Internet.
 
 ## ABSTRACT
 

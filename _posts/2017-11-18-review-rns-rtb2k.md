@@ -1,11 +1,9 @@
 ---
+layout: post
 title:  "Review - Rohde & Schwarz RTB2K-COM4 Digital Oscilloscope"
-excerpt: "Deep memory and loads of features in this industry standard lab instrument."
-header:
-  image: /assets/images/rns_rtb2k/splash.jpg
-  caption: "Beauty and the Bench"
-
-image: /assets/images/rns_rtb2k/splash.jpg
+author: ipv1
+description: "Deep memory and loads of features in this industry standard lab instrument."
+image: assets/images/rns_rtb2k/splash.jpg
 categories:
   - Review
 tags:
@@ -14,11 +12,9 @@ tags:
   - Oscilloscope
   - RTB2K-COM4
   - FFT
-toc: true
-toc_label: "Table Of Contents"
-toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
-toc_sticky: true
 ---
+
+Deep memory and loads of features in this industry standard lab instrument.
 
 # Introduction
 

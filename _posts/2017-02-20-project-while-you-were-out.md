@@ -1,25 +1,22 @@
 ---
+layout: post
 title: "Project - While You Were Out"
-excerpt: "Using the Cypress Analog CoProcessor and a Raspberry Pi 2, we automate and Office"
-header:
-  image: /assets/images/whileuwereout/splash.jpg
+author: ipv1
+description: "Using the Cypress Analog CoProcessor and a Raspberry Pi 2, we automate and Office"
+image: assets/images/whileuwereout/splash.jpg
 categories: 
   - Project
 tags:
   - PSOC
   - Linux
   - OpenHAB
-toc: true
-toc_label: "Table Of Contents"
-toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
-toc_sticky: true
 ---
+
+Using the Cypress Analog CoProcessor and a Raspberry Pi 2, we automate and Office
 
 ## The Problem Statement
 
 Like many people, I work in a room with a workbench, lights, fans, Air-Conditioning and bench test equipment etc. During work hours I have a habit of taking trips away from the bench for a multitude of reasons which includes
-
-
 
 * visits to the little boy’s room,
 * taking personal phones calls,

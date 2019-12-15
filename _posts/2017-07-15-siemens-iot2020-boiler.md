@@ -1,9 +1,9 @@
 ---
+layout: post
 title:  "Project - IoT Boiler Controller using Siemens IoT 2020"
-excerpt: "Creating a Safe Demonstration of an Industrial Boiler Control Using the IoT2020"
-header:
-  image: /assets/images/iot2020/splash.jpg
-  caption: "The IoT Boiler Controller"
+author: ipv1
+description: "Creating a Safe Demonstration of an Industrial Boiler Control Using the IoT2020"
+image: assets/images/iot2020/splash.jpg
 categories:
   - Project
 tags:
@@ -16,11 +16,9 @@ tags:
   - Node-Red
   - Python
   - C++
-toc: true
-toc_label: "Table Of Contents"
-toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
-toc_sticky: true
 ---
+
+Creating a Safe Demonstration of an Industrial Boiler Control Using the IoT2020
 
 ## Description
 

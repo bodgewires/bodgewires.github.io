@@ -1,27 +1,24 @@
 ---
+layout: post
 title:  "Review - Arduino Genuino 101 Review and Getting Started"
-excerpt: "I take a look at the Arduino Genuino 101 with the Intel Curie Processor and compare it with other blueooth boards. I also look at small demo projects for the same."
-header:
-  image: /assets/images/genuino/splash.jpg
+author: ipv1
+description: "I take a look at the Arduino Genuino 101 with the Intel Curie Processor and compare it with other blueooth boards. I also look at small demo projects for the same."
+image: assets/images/genuino/splash.jpg
 categories:
   - Review
 tags:
   - arduino
   - genuino
   - review
-toc: true
-toc_label: "Table Of Contents"
-toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
-toc_sticky: true
 ---
+
+I take a look at the Arduino Genuino 101 with the Intel Curie Processor and compare it with other blueooth boards. I also look at small demo projects for the same.
 
 ## INTRODUCTION
 
 ![Image Of Intel Genuino Out of the Box](/assets/images/genuino/1.jpg)
 
 The Arduino Genuino 101 is the result of collaboration between Massimo Banzi and Intel and features the Intel Curie Processor. The board also features sensors such as accelerometers and gyroscopes and has BLE or Bluetooth Low Energy which enables communication with smart-phones etc. In this review I take a look at the hardware in detail and compare it with the BBC Micro bit and make some basic projects that can help the beginner get off the ground.
-
-
 
 
 ## Basics

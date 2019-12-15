@@ -1,20 +1,18 @@
 ---
+layout: post
 title:  "Project - Building an IoT Light using Texas Instruments Parts - Part 1"
-excerpt: “An IoT Enabled Light design using TPS92512 and CC3200"
-header:
-  image: /assets/images/iotlight/splash.png
-  caption: "Part - 1"
+author: ipv1
+description: "An IoT Enabled Light design using TPS92512 and CC3200"
+image: assets/images/iotlight/splash.png
 categories:
   - Project
 tags:
   - CC3200
   - HTML
   - JavaScript
-toc: true
-toc_label: "Table Of Contents"
-toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
-toc_sticky: true
 ---
+
+An IoT Enabled Light design using TPS92512 and CC3200
 
 Original Post is at: https://e2e.ti.com/blogs_/b/powerhouse/archive/2016/06/17/designing-an-iot-modular-light
 

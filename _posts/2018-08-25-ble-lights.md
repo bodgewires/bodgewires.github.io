@@ -1,9 +1,10 @@
 ---
+layout: post
 title:  "Project - Bluetooth LE Light Control"
-excerpt: "Controlling LEDs with Bluetooth 4.0"
-header:
-  image: /assets/images/ble_nodejs/splash.jpg
-  caption: "NodeJS and BLE"
+author: ipv1
+description: "Controlling LEDs with Bluetooth 4.0"
+image: assets/images/ble_nodejs/splash.jpg
+beforetoc: "NodeJS and BLE"
 categories:
   - Project
 tags:
@@ -13,6 +14,8 @@ tags:
   - LED
   - Design
 ---
+
+Controlling LEDs with Bluetooth 4.0
 
 ## Description
 

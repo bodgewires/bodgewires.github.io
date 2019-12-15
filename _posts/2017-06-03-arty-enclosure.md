@@ -1,9 +1,9 @@
 ---
+layout: post
 title:  "Project - A 3D printed Enclosure for Digilent's Arty"
-excerpt: "An enclosure to protect the ARTY FPGA board while making it useful."
-header:
-  image: /assets/images/arty_enc/splash.png
-  caption: "Arty Enclosure with Fusion 360"
+author: ipv1
+description: "An enclosure to protect the ARTY FPGA board while making it useful."
+image: assets/images/arty_enc/splash.png
 categories:
   - Project
 tags:
@@ -11,6 +11,8 @@ tags:
   - Arty
   - 3D printing
 ---
+
+An enclosure to protect the ARTY FPGA board while making it useful.
 
 ## Description
 
@@ -26,7 +28,7 @@ As a mini project, I took it upon myself to create a small cover for the said bo
 
 ## Files And Links
 
-<a href="https://bodgewires.github.io/assets/images/arty_enc/arty.stl">![alt text](/assets/images/arty_enc/arty_enc.png){: .align-center}</a>
+<a href="https://bodgewires.github.ioassets/images/arty_enc/arty.stl">![alt text](/assets/images/arty_enc/arty_enc.png){: .align-center}</a>
 
 ## Lessons Learned
 

@@ -1,9 +1,9 @@
 ---
+layout: post
 title:  "Tutorials - Everything About LEDs and Control"
-excerpt: "My articles on LEDs and how to control them."
-header:
-  image: /assets/images/ledarticles/splash.jpg
-  caption: "Control Thy LED"
+author: ipv1
+description: "My articles on LEDs and how to control them."
+image: assets/images/ledarticles/splash.jpg
 categories:
   - Tutorial
 tags:
@@ -14,6 +14,8 @@ tags:
   - PWM
   - Design
 ---
+
+My articles on LEDs and how to control them.
 
 ## Description
 

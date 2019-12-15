@@ -1,20 +1,18 @@
 ---
+layout: post
 title:  "Review - Tektronix TBS1xxb oscilloscope"
-excerpt: “An Oscilloscope review and some usage information on scopes in general"
-header:
-  image: /assets/images/unsplash-image-2.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+author: ipv1
+description: "An Oscilloscope review and some usage information on scopes in general"
+image: assets/images/tbs1xxb/tbs1202b-edu.jpg
 categories:
   - Review
 tags:
   - instrument
   - bench
   - tools
-toc: true
-toc_label: "Table Of Contents"
-toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
-toc_sticky: true
 ---
+
+An Oscilloscope review and some usage information on scopes in general
 
 ## INTRODUCTION
 

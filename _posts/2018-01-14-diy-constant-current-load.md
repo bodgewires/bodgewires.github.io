@@ -1,9 +1,9 @@
 ---
+layout: post
 title:  "Project - DIY Constant Current Load"
-excerpt: "A simple yet essential part of any electronic test bench. A DIY Solution."
-header:
-  image: /assets/images/diyconstantcurrentload/splash.jpg
-  caption: "DIY Constant Current Load"
+author: ipv1
+description: "A simple yet essential part of any electronic test bench. A DIY Solution."
+image: assets/images/diyconstantcurrentload/splash.jpg
 categories:
   - Project
 tags:
@@ -13,11 +13,9 @@ tags:
   - MOSFET
   - Constant Current
   - LOAD
-toc: true
-toc_label: "Table Of Contents"
-toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
-toc_sticky: true
 ---
+
+A simple yet essential part of any electronic test bench. A DIY Solution.
 
 ## Description
 

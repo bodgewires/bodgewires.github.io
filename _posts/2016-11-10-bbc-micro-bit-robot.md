@@ -1,25 +1,22 @@
 ---
+layout: post
 title:  "Project - BBC Micro Bit based Line Follower Robot"
-excerpt: “An introduction to the BBC microbit and a tutorial on making a line following robot"
-header:
-  image: /assets/images/microbit/splash.jpg
+author: ipv1
+description: “An introduction to the BBC microbit and a tutorial on making a line following robot"
+image: assets/images/microbit/splash.jpg
 categories:
   - Project
 tags:
   - bbc
   - microbit
   - touchdevelop
-toc: true
-toc_label: "Table Of Contents"
-toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
-toc_sticky: true
 ---
+
+An introduction to the BBC microbit and a tutorial on making a line following robot
 
 ## INTRODUCTION
 
 The BBC Microbit is a small ARM based, user friendly, micro controller targeted towards computer education in the UK. It has been developed by the partnership of a long list of organisations including Microsoft, Element14, Nordic, NXP and many more. 
-
-
 
 The intended audience is school children and there are four official ways to write programs for the BBC Micro Bit. They are.
 

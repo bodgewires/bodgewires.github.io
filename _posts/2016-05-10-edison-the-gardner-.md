@@ -1,19 +1,18 @@
 ---
+layout: post
 title:  "Project - Intel Edison Based Garden Management System"
-excerpt: “Using the Intel Edison, we automate the garden, soil and hydroponic."
-header:
-  image: /assets/images/edisongardner/splash.jpg
+author: ipv1
+description: “Using the Intel Edison, we automate the garden, soil and hydroponic."
+image: assets/images/edisongardner/splash.jpg
 categories:
   - Project
 tags:
   - Linux
   - OpenHAB
   - Edison
-toc: true
-toc_label: "Table Of Contents"
-toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
-toc_sticky: true
 ---
+
+Using the Intel Edison, we automate the garden, soil and hydroponic.
 
 ## INTRODUCTION
 
@@ -121,7 +120,7 @@ A hydroponics system is a soil-less growing system where the potting media used 
 
 In our setup, we used perlite as a medium which was purchased off ebay. This perlite is washed with water and chlorine and the granules are dried.
 
-We used plastic cups and cut multiple slots(Smaller than the perlite granules to allow outflow and inflow of water. You may also use netted materials as well to retain the perlite if the small slots do not work right for you. Two such glasses were sandwiched together to form a barrier to retain the perlite. Pebbles were placed at the bottom to allow the containers to be weighed down and not float up as the nutrient solution is pumped.
+We used plastic cups and cut multiple slots(Smaller than the perlite granules to allow outflow and inflow of water. You may also use netted materials as well to retain the perlite if the small slots do not work right for you. Two such gl/asses were sandwiched together to form a barrier to retain the perlite. Pebbles were placed at the bottom to allow the containers to be weighed down and not float up as the nutrient solution is pumped.
 
 ![alt text](/assets/images/edisongardner/10.jpg){: .align-center}
 

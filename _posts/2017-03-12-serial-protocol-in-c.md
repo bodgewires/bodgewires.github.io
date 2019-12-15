@@ -1,20 +1,18 @@
 ---
+layout: post
 title:  "Tutorial - Writing your own Serial Protocol using C"
-excerpt: "In this article, I take a look at designing and implementing a simple serial protocol using C. It can be used in microcontrollers or Single Board Computers"
-header:
-  image: /assets/images/serialprotocolc/splash.jpg
-  caption: "Serial Protocol For Embedded"
+author: ipv1
+description: "In this article, I take a look at designing and implementing a simple serial protocol using C. It can be used in microcontrollers or Single Board Computers"
+image: assets/images/serialprotocolc/splash.jpg
 categories:
   - Tutorial
 tags:
   - Linux
   - C
   - programming
-toc: true
-toc_label: "Table Of Contents"
-toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
-toc_sticky: true
 ---
+
+In this article, I take a look at designing and implementing a simple serial protocol using C. It can be used in microcontrollers or Single Board Computers
 
 ## Description
 

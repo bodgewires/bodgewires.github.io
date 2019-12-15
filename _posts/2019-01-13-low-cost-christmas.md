@@ -1,11 +1,10 @@
 ---
+layout: post
 title:  "Project - Low Cost Connected Christmas"
-excerpt: "The dollar-store inspired Christmas project"
-header:
-  image: /assets/images/dollar_christmas/splash.jpg
-  caption: "Music and connectivity on a budget"
-
-image: /assets/images/dollar_christmas/splash.jpg
+description: "The dollar-store inspired Christmas project"
+image: assets/images/dollar_christmas/splash.jpg
+beforetoc: "Music and connectivity on a budget"
+author: ipv1
 categories:
   - Project
 tags:
@@ -14,11 +13,9 @@ tags:
   - Lights
   - Linux
   - Bluetooth
-toc: true
-toc_label: "Table Of Contents"
-toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
-toc_sticky: true
 ---
+
+The dollar-store inspired Christmas project.
 
 ## ABSTRACT
 

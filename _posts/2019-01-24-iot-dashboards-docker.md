@@ -1,9 +1,10 @@
 ---
+layout: post
 title:  "Tutorials - IoT Dashboards for Data Visualization"
-excerpt: "Docker, Dashboards, Databases"
-header:
-  image: /assets/images/dockerdatabasedashboard/splash.jpg
-  caption: "Docker, Database, Dashboards"
+author: ipv1
+image: assets/images/dockerdatabasedashboard/splash.jpg
+description: "Docker, Database, Dashboards"
+featured: true
 categories:
   - Tutorial
 tags:
@@ -14,6 +15,8 @@ tags:
   - PWM
   - Design
 ---
+
+Docker, Database, Dashboards
 
 ## Description
 

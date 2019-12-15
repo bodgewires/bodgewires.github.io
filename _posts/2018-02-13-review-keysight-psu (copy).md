@@ -1,11 +1,9 @@
 ---
+layout: post
 title:  "Review - Keysight E36313A Triple Output DC P.S."
-excerpt: "Guts and glory of the Keysight full featured Lab Power Supply"
-header:
-  image: /assets/images/keysight_psu/splash.jpg
-  caption: "Take it apart."
-
-image: /assets/images/dollar_christmas/splash.jpg
+author: ipv1
+description: "Guts and glory of the Keysight full featured Lab Power Supply"
+image: assets/images/keysight_psu/splash.jpg
 categories:
   - Review
 tags:
@@ -14,11 +12,9 @@ tags:
   - Power Supply
   - Teardown
   - Python
-toc: true
-toc_label: "Table Of Contents"
-toc_icon: "book-open"  # corresponding Font Awesome icon name (without fa prefix)
-toc_sticky: true
 ---
+
+Guts and glory of the Keysight full featured Lab Power Supply
 
 ## Introduction and key features advertised and to be reviewed
 
@@ -217,7 +213,7 @@ Complete  instruction are already given BUT I also installed the keysight  conne
 
 Yes. It is that simple. So what do you get?
 
-![img](/assets/images/keysight_psu/IMG_4715.JPG)
+![img](/assets/images/keysight_psu/splash.jpg)
 
 ## More advanced control - Data logging to CSV or PLOTTING IT IN REALTIME
 

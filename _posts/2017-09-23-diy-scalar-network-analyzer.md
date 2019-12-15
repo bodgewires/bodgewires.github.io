@@ -1,9 +1,9 @@
 ---
+layout: post
 title:  "Project - DIY Scalar Network Analyzer"
-excerpt: "Research need not be expensive and this projects helps a little."
-header:
-  image: /assets/images/scalarnetworkanalyzer/splash.jpg
-  caption: "DIY Scalar Network Analyzer"
+author: ipv1
+description: "Research need not be expensive and this projects helps a little."
+image: assets/images/scalarnetworkanalyzer/splash.jpg
 categories:
   - Project
 tags:
@@ -14,6 +14,8 @@ tags:
   - RF
   - Design
 ---
+
+Research need not be expensive and this projects helps a little.
 
 ## Description
 
