@@ -51,7 +51,7 @@ pre {
 .site-content {
     min-height: 60vh;
     padding-top: 1.5rem;
-    margin-top: 57px;
+    margin-top: 60px; /*57px*/
     transition: all 0.4s;
 }
 
@@ -330,7 +330,7 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: Merriweather;
+    /* font-family: Merriweather; */
     font-size: 1.1rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
