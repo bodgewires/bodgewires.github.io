@@ -338,6 +338,7 @@ span.post-read-more a:hover {
   font-size: 1rem;
   line-height: 1.4;
   color: rgba(0, 0, 0, 0.8);
+  text-align: justify;
 }
 
 blockquote {
