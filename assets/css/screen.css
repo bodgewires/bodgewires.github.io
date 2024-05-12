@@ -334,10 +334,10 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-  /* font-family: Merriweather; */
-  font-size: 1rem;
+  font-family: Nunito, 'Source Sans Pro', Merriweather;
+  font-size: 18px;
   line-height: 1.4;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(90, 90, 90, 1);
   text-align: justify;
 }
 
@@ -706,9 +706,13 @@ h6 {
 .article-post h4,
 .article-post h5,
 .article-post h6 {
-  font-weight: 700;
-  margin-bottom: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.3rem;
 }
+
+.article-post h1 { font-size: 1.5em; }
+.article-post h2 { font-size: 1.2em; }
+.article-post h3 { font-size: 1.1em; }
 
 .article-post img.shadow {
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
@@ -716,11 +720,11 @@ h6 {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
-.layout-page .article-post {
+.layout-page {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 .layout-page .article-post p {
